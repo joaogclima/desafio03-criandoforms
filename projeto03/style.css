@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    background: #EFEFEF;
+}
+
+body, input, button, select, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+
+    z-index: -1;
+    position: absolute;
+    background: #535971;
+    left: 0px;
+    top: -2px;
+}
+
+.page {
+    width: 750px;
+    margin: 0 auto;
+}
+
+header {
+    width: 417px;
+
+    margin-top: 138px;
+}
+
+header h1 { 
+    font-family: 'Staatliches', cursive;
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 18px;
+
+    color: #FFFFFF;
+
+}
+
+header p {
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+form {
+    position: absolute;
+    width: 750px;
+    height: 1084px;
+    min-height: 300px;
+    margin-top: 58px;
+
+    padding: 64px;
+    border-radius: 20px 20px 0 0;
+    background: #FFFFFF;
+}
+
+fieldset {
+    border: none;
+
+    margin-bottom:  30px;
+}
+
+
+fieldset legend {
+    width: 100%;
+    
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 8px;
+    
+    color: #535971;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 16px;
+}
+
+.input-wrapper label {
+    font-size: 14px;
+    line-height: 24px;
+    
+    margin-bottom: 8px;
+}
+
+.input-wrapper input {
+    height: 56px;
+    padding: 0 20px;
+    
+    box-sizing: border-box;
+    
+    background: #FAFAFC;
+    
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+}
+
+.input-wrapper label span {
+    font-size: 12px;
+    line-height: 20px;
+    
+    margin-left: 6px;
+    
+    color: #C1BCCC;
+}
+
+.input-wrapper label span:hover {
+    color: #948f9c;
+}
+.col-2 {
+    display: flex;
+    gap: 22px;
+}
+
+.col-2 > div:nth-child(1) {
+    width: 300px;
+}
+
+.col-2 > div:nth-child(2) {
+    width: 300px;
+}
+
+h2 {
+    width: 100%;
+    
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+
+    margin-top: 32px;
+}
+
+.col-3 {
+    display: flex;
+    gap: 10px;
+}
+
+.mentorship {
+    display: flex;
+    gap: 32px;
+}
+
+.mentorship > div:nth-child(1) {
+    width: 100%;
+}
+
+.button-frame {
+    position: absolute;
+    width: 750px;
+    height: 160px;
+    
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+
+    left: 0;
+    top: -2;
+}
+
+button {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    margin: 52px 71px;
+
+    position: absolute;
+    width: 608px;
+    height: 55px;
+
+    background: #FF5374;
+    border-radius: 20px;
+
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+
+    border-style: outset;
+}
+
